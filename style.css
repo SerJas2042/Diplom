@@ -1,0 +1,331 @@
+body{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+.header{
+	width: 100%;
+	height: 170px;
+	display: inline-grid;
+}
+.shapka{
+	width: 100%;
+	height: 70px;
+	background: linear-gradient(#B2EBF2 2px,#0097A7 18px);
+	display: inline-grid;
+	justify-content: center;
+	align-content: center;
+}
+.podshapka{
+	width: 100%;
+	height: 100px;
+	background-color: #00A1B3;
+	display: inline-grid;
+	justify-content: center;
+}
+.shapka > .content{
+	width: 1500px;
+	height: 50px;
+	display: inline-flex;
+	line-height: 45px;
+}
+.content > .Log_Reg{
+	width: 270px;
+	color: #fffef7;
+}
+.Log_Reg > button{
+	border: 0;
+	padding: 0;
+	color: #212121;
+	cursor: pointer;
+	background-color: #0097A7;
+	font-size: 15px;
+	font-family: Intro;
+}
+.Log_Reg > button:hover{transition: 1s; color:#DF3A01 ;}
+
+.content > .InfoFrame{
+	margin-left: 40px;
+	width: 1200px;
+}
+.InfoFrame > button{
+	border: 0;
+	padding: 0;
+	color: #212121;
+	cursor: pointer;
+	background-color: #0097A7;
+	font-size: 18px;
+	font-family: Bic;
+}
+.InfoFrame > button:hover{ transition: 1s; color:#DF3A01 ; border-bottom:0;}
+
+.InfoFrame > .line{
+	height: 60px;
+	width: 2px;
+	border: 1px solid white;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.content > .InfoFrame2{
+	width: 600px;
+}
+.InfoFrame2 > button{
+	margin-left: 20px;
+	border: 0;
+	padding: 0;
+	color: #fffef7;
+	cursor: pointer;
+	background-color: #0097A7;
+	font-size: 16px;
+}
+.InfoFrame2 > button:hover{transition: 1s; color:#DF3A01}
+
+.podshapka >.content{
+	width: 1500px;
+	height: 100px;
+	display: inline-grid;
+	align-content: center;
+	grid-template-columns: 420px 600px 330px;
+}
+.podshapka > .content > .logo{
+	width: 1000px;
+	display: inline-grid;
+	grid-template-columns: 160px 260px;
+	align-content: center;
+	align-items: center
+}
+.podshapka > .content > .logo > span{
+	margin-left: 20px;
+	height: 35px;
+	color: #CCC4C4;
+}
+.content > .pod_InfoFrame{
+	display: grid;
+  	width: 100%;
+  	max-width: 600px;
+  	margin: 0 auto;
+  	grid-template-columns: repeat(2, 1fr);
+  	justify-items: center
+}
+.content > .pod_InfoFrame > .number{
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+  	grid-column: 1 / 3;
+  	grid-row: 1;
+}
+.content > .pod_InfoFrame > .text1{
+	font-size: 14px;
+	color: #80B94F;
+	grid-column: 1/1;
+  	grid-row: 2;
+}
+.content > .pod_InfoFrame > .text2{
+	font-size: 14px;
+	color: #80B94F;
+	grid-column: 2/2;
+  	grid-row: 2;
+}
+.content > .pod_InfoFrame > .text3{
+	font-size: 22px;
+	text-align: center;
+	grid-column: 1 / 3;
+  	grid-row: 3;
+  	color: #FFFFFF;
+}
+.content > .Call{
+	display: grid;
+	align-content: center;
+	justify-content: center;
+}
+.content > .Call > button{
+	font-size: 22px;
+	color: #FFFFFF;
+	background-color: #72C52A;
+	height: 70px;
+	width: 240px;
+	border: 0px;
+	border-bottom: 5px solid #3D6817;
+	border-radius: 20px 20px 20px 20px;
+}
+.content > .Call > button:hover{
+	background-color: #5EA321;
+	margin-top: 5px;
+	transition: 0.5s;
+	height: 65px;
+	border-bottom: 1px solid #3D6817;
+}
+.Main{
+	width: 100%;
+	max-height: 500px;
+}
+.futer{
+	position: relative;
+	width: 100%;
+	height: 540px;
+	top: 100%;
+	background-color: #5EA321;
+}
+.ContentFirst{
+	background-color: #DF7401;
+	width: 100%;
+	height: 80px;
+}
+
+.ContentSecond{
+	background-color: #523c3c;
+	width: 100%;
+	height: 340px;
+}
+
+.ContentThird{
+	background-color: #473434;
+	width: 100%;
+	height: 120px;
+}
+.ContentFirst,.ContentSecond,.ContentThird{
+	display: inline-grid;
+	justify-content: center;
+	align-content: center
+}
+#content{
+	width: 1350px;
+	height: 100%;
+}
+.content1 span{
+	color: #FFFFFF;
+	font-size: 24px;
+}
+.content1 input{
+	height: 40px;
+	width: 400px;
+	margin-left: 20px;
+	border: 0;
+	font-size: 20px;
+	padding-left: 20px;
+	border-radius:5px;
+}
+.content1 input:focus{
+	outline: 0;
+	border: 1px solid;
+}
+.content1 button{
+	height: 48px;
+	width: 200px;
+	font-size: 20px;
+	color: #FFFFFF;
+	border: 3px solid #FFFFFF;
+	background-color:#DF7401;
+	border-radius: 10px;
+	text-shadow: 0px 2px 5px black;
+	margin-left: 200px;
+}
+.content1 button:hover{
+	border: 0;
+	background-color: #FFFFFF;
+	color: #DF7401;
+}
+.content2{
+	display: inline-grid;
+	grid-template-columns: 300px 300px 300px 300px;
+	grid-template-rows: 1;
+}
+.Glav{
+	color: white;
+	font-size: 26px;
+}
+.grid1{
+	display: grid;
+	grid-template-rows: 10;
+}
+.grid2{
+	display: grid;
+	grid-template-rows: 9;
+}
+.grid3{
+	display: grid;
+	grid-template-rows: 2;
+}
+.grid4{
+	display: grid;
+	grid-template-rows: 6;
+}
+a[class="1"]{
+	color: #DE750D;
+	font-size: 18px;
+	border: 0;
+	text-decoration: 0;
+}
+a[class="1"]:hover{
+	font-size: 19px;
+	color: #F88D20;
+}
+
+a[class="2"]{
+	color: #DFDEDE;
+	font-size: 18px;
+	border: 0;
+	text-decoration: 0;
+}
+a[class="2"]:hover{
+	font-size: 19px;
+	color: #A7A7A7;
+}
+.gridPay{
+	display: inline-grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 2;
+}
+.Main{
+	height: 3000px;
+	display: inline-grid;
+	justify-content: center;
+}
+.MainContent{
+	width: 1500px;
+}
+.MenuList{
+	margin-top: 10px;
+	width: 1500px;
+	height: 1000px;
+	border: black solid 1px;
+	overflow: scroll;
+}
+
+.product{
+	background-color: 	#1F7D63;
+	text-align: center;
+	border: 2px solid black;
+	height: 350px;
+	width: 240px;
+	margin: 10px;
+	border-radius: 20px;
+	display: inline-grid;
+}
+.product > li{
+	list-style-type: none;
+	margin-top: 5px;
+}
+.buy{
+	border-radius: 10px;
+
+}
+.buy > img{
+	width: 30px;
+	height: 30px;
+}
+
+.buy > img:hover{
+	width: 40px;
+	height: 40px;
+}
+
+.buy_info{
+	text-align: right;
+	margin-right: 10px;
+}

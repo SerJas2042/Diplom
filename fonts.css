@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: Intro; 
+    src: url("fonts/intro/Intro.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: Bic; 
+    src: url("fonts/bicubik/Bicubik.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: Intro; 
+    src: url("fonts/intro/Intro.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: Intro; 
+    src: url("fonts/intro/Intro.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: Arkhip;
+    src: url("fonts/NEWSHRIFT/d9464-arkhip_font.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
